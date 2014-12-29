@@ -1,0 +1,277 @@
+/*******************
+ *     global      *
+ ******************/
+html, body {
+	height: auto;
+	width:100%;
+}
+body{
+	overflow-x: hidden;
+	background:   -webkit-radial-gradient(center, ellipse cover, #f4f4f4 53%,#f4f4f4 53%,#dbdbdb 100%); 
+
+}
+*{
+	font-family: FangSong;
+}
+.main_content . row {
+	margin:0 0 0 0 ;
+}
+.margin_main_content {
+    margin-left:30% !important;
+}
+
+/*******************
+ *    手機排版相關   *
+ ******************/
+
+#phone_nav {
+    display:none;
+}
+
+.header_word {
+    display:none;
+}
+
+.text-center{
+	display:initial;
+}
+
+#header_menu {
+    display:none;
+}
+
+/*******************
+ *    background   *
+ ******************/
+#bg{
+	position: fixed;
+	width: 200%;
+	height: 200%;
+	z-index: -1;
+	top:-10%;
+}
+
+ .bg_content{
+
+	min-width: 100%;
+	min-height: 100%;
+	bottom: 0;
+	right:0;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.bg_content img{
+	min-width: 50%;
+}
+.img_word{
+	z-index: 10;
+	position: absolute;
+	font-size: 40px;
+}
+.w_1{
+	top: 30%;
+	left:30%;
+}
+.w_3 {
+	top: 10%;
+	left: 9%;
+	text-align: left;
+}
+.w_4{
+	top: 37%;
+	left:30%;
+	text-align: right;
+}
+.w_5{
+	top: 38%%;
+	left: 30%;
+	text-align: right;
+}
+.w_6{
+	top:30%;
+	left:28%;
+	text-align: left;
+}
+.w_9{
+	bottom: 50%;
+	right:53%;
+	text-align: right;
+}
+
+
+#vertical_bg{
+	position:fixed;
+	top:0%;
+	max-width:100%;
+}
+
+/*******************
+ *     right       *
+ ******************/
+ .header{
+ 	float:right;
+ 	margin: 40px -60px 0 0;
+ }
+ .header h4{
+ 	color: white;
+ 	font-weight: 700;
+ 	opacity: 1;
+ 	text-decoration: none;
+ }
+ .item{
+
+ 	display: inline;
+ 	position:relative;
+ 	padding-right: 5px;
+ }
+ .bd{
+ 	border-right: 1px white solid;
+ }
+ .content{
+ 	min-height: 100vh;
+ }
+ .footer{
+ 	width:100%;
+ 	margin-top:-40px;
+ }
+ .word{
+ 	color: white;
+ 	font-weight: 600;
+ 	opacity: 0.8;
+ 	text-align: right;
+ 	margin: 0 20px 20px 0;
+ }
+ /*******************
+ *     left_bar     *
+ ******************/
+ .left_bar{
+ 	background-color: rgba(0,0,0,0.7);
+ 	height:auto;
+ 	min-height: 100%;
+ 	position:fixed;
+ 	top:0px;
+ 	z-index: 999;
+ }
+ .left_bar_position{
+ 	margin-left:1%;
+ }
+ .logo img{
+ 	width: 90%;
+ 	margin:13% 6% 0% 7%;
+	cursor: pointer
+ }
+ .menu{
+ 	margin-top:30px;
+ 	line-height: 2em;
+ }
+ .menu ul li{
+ 	list-style: none;
+ 	text-align: right;
+ 	display:block;
+ 	position:relative;
+ 	margin-right: 30px
+ }
+ .menu ul a{
+ 	color: #FFF;
+ 	opacity: 0.85	;
+ 	font-size: 16px;
+ 	text-decoration: none;
+    cursor: pointer
+ }
+
+.left_bar_footer {
+    position:absolute;
+    bottom:-2%;
+    margin-right:6%;
+    opacity:0.8;
+}
+
+.opacityDark {
+    background-color:#493930 !important;
+}
+
+.hide_list{
+	min-height: 160px;
+	
+}
+
+.hide_list > .menu{
+	display:none;
+}
+
+#left_bar .active {
+    font-weight:900 !important;
+}
+
+    left_bar .active > a {
+        opacity:0.9 !important;
+    }
+
+  /*******************
+ *   Room_Content   *
+ ******************/
+#room_content .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color:#444444;
+    border-radius:2px;
+}
+
+#room_content .nav-tabs > li > a, .nav-pills > li > a {
+    cursor: pointer
+}
+
+#room_content .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color:#EEEEEE;
+
+}
+#room_content .margin_right {
+    margin-right:6%;
+}
+
+#room_content .slide_node > li {
+    border:1px solid rgba(0,0,0,0.6);
+}
+
+
+#room_content .slide_node > li.active {
+    background-color:rgba(0,0,0,0.4);
+}
+
+.room_content {
+    margin-top:3%;
+}
+
+
+
+#room_content .room_description {
+    width:100%;
+    border-left:1px solid rgba(0,0,0,0.2);
+    padding-left:7%;
+    padding-right:2%;
+    font-size:15px;
+    
+}
+
+#room_content .room_list{
+    font-size:17px;
+}
+
+#room_content .nav-tabs {
+    border-bottom:1px solid rgba(0,0,0,0.2);
+}
+
+
+  /*******************
+ *   Travel_Content   *
+ ******************/
+
+ .map_content_map{
+	height:440px;
+}
+ 
+ .group{
+	overflow: hidden;
+	height: 11%;
+	margin-top: 10px;
+}
+ 
