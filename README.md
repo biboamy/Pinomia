@@ -2,7 +2,10 @@
 Cooperating with local hostel owner, we created a website displaying the basic information of this hostel.
 
 ## Website link
-website link: http://www.pinomia.idv.tw/
+http://www.pinomia.idv.tw/
+
+## Contact
+Bug report: biboamybibo@gmail.com
 
 ## Team members
 #### Website developer
