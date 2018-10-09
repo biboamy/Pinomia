@@ -2,7 +2,7 @@
 Cooperating with local hostel owner, we created a website displaying the basic information of this hostel.
 
 ## Website link
-http://www.pinomia.idv.tw/
+https://pinomia.netlify.com/
 
 ## Contact
 Bug report: biboamybibo@gmail.com
