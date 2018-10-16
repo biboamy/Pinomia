@@ -2,7 +2,7 @@
 Cooperating with local hostel owner, we created a website displaying the basic information of this hostel.
 
 ## Website link
-https://pinomia.netlify.com/
+http://biboamy.github.io/Pinomia/
 
 ## Contact
 Bug report: biboamybibo@gmail.com
